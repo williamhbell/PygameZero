@@ -101,7 +101,7 @@ def updateRock():
 def update():
   global gameOver
 
-  # While the game is not over, move the spacecraft and rock
+  # If the game is not over, move the spacecraft and rock
   if not gameOver:
     updateSpacecraft()
     updateRock()
