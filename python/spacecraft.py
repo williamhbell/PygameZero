@@ -15,7 +15,9 @@ def draw():
 # ---------------------------------------
 # The update function
 def update():
-  # Move the spacecraft
+
+  # If the cursor keys are pressed, then move the
+  # spacecraft within the limits of the screen.
   if keyboard.left and spacecraft.left > 2:
     spacecraft.x -= 2
   if keyboard.right and spacecraft.right < WIDTH+2:
