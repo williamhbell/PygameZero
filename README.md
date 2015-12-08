@@ -15,10 +15,11 @@ pgzrun python/spacecraft.py
 
 Each of the example programs can be closed by closing the graphical window.
 
-Raspbian Wheezy: installing & patching
-======================================
+Raspbian Wheezy
+===============
+The dependencies are not part of the current Raspbian Wheezy image.  Pygame Zero 1.1 does not work even when they are installed.  Typing,
 
-For Raspbian Wheezy,
 ```
 ./wheezy-patch/install-PygameZero.sh
 ```
+will install the dependencies and patch Pygame Zero.
