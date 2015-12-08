@@ -1,0 +1,11 @@
+--- rect.py	2015-12-08 22:43:27.387272518 +0000
++++ rect.py.patched	2015-12-08 22:44:07.826085220 +0000
+@@ -27,7 +27,7 @@
+                 msg += "; did you mean {!r}?".format(suggestions[0])
+             raise AttributeError(msg) from None
+ 
+-Rect.__doc__ = pygame.rect.Rect.__doc__
++#Rect.__doc__ = pygame.rect.Rect.__doc__
+ 
+ 
+ class NoIntersect(Exception):
